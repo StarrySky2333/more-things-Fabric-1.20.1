@@ -1,0 +1,20 @@
+{
+  "itemGroup.more-things.allthingsgroup": "More Things",
+  "item.tutorial.custom_item.tooltip": "A Custom Item",
+
+  "block.more-things.corn_ore": "Corn Ore",
+  "block.more-things.corn_block": "Corn Block",
+
+  "item.more-things.corn_ingot": "Corn Ingot",
+  "item.more-things.raw_corn": "Raw Corn",
+
+  "item.more-things.corn_sword": "Corn Sword",
+  "item.more-things.corn_shovel": "Corn Shovel",
+  "item.more-things.corn_pickaxe": "Corn pickaxe",
+  "item.more-things.corn_axe": "Corn Axe",
+  "item.more-things.corn_hoe": "Corn Hoe",
+  "item.more-things.corn_helmet": "Corn Helemt",
+  "item.more-things.corn_chestplate": "Corn Chestplate",
+  "item.more-things.corn_leggings": "Corn Leggings",
+  "item.more-things.corn_boots": "Corn Boots"
+}
