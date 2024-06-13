@@ -50,6 +50,7 @@ public class MyItemGroup {
                 entries.add(NewItem.CORN_CHESTPLATE);
                 entries.add(NewItem.CORN_LEGGINGS);
                 entries.add(NewItem.CORN_BOOTS);
+                entries.add(NewItem.ORE_FINDER);
             })
             .build();
 

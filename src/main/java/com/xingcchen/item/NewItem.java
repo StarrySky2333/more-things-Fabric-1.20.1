@@ -1,6 +1,7 @@
 package com.xingcchen.item;
 
 import com.xingcchen.block.NewBlock;
+import com.xingcchen.item.customItem.OreFinder;
 import net.minecraft.item.*;
 
 
@@ -30,6 +31,8 @@ public class NewItem {
     public static final ArmorItem CORN_LEGGINGS =new ArmorItem(MyArmorMaterial.CORN_INGOT, ArmorItem.Type.LEGGINGS,new Item.Settings().fireproof());
     public static final ArmorItem CORN_BOOTS =new ArmorItem(MyArmorMaterial.CORN_INGOT, ArmorItem.Type.BOOTS,new Item.Settings().fireproof());
 
+    //创建自定义实用工具
+    public static final Item ORE_FINDER = new OreFinder(new Item.Settings().maxCount(1).maxDamage(63));
 
 
     /*这里使用原版注册方式来注册，基本语法是 Registry#register(注册表类型, ID, 内容)，

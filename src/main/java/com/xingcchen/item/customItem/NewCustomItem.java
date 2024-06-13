@@ -1,4 +1,4 @@
-package com.xingcchen.item;
+package com.xingcchen.item.customItem;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
