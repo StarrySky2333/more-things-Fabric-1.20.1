@@ -8,11 +8,11 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
 
-import java.util.EnumMap;
+
 import java.util.function.Supplier;
 
 public enum MyArmorMaterial implements ArmorMaterial {
-    CORN_INGOT("corn_ingot",50,new int[] {3, 6, 8, 3},20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,4.0f,0.3f,()->Ingredient.ofItems(NewItem.CORN_INGOT));
+    CORN_INGOT("corn_ingot",50,new int[] {3, 6, 8, 3},20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,3.0f,0.1f,()->Ingredient.ofItems(NewItem.CORN_INGOT));
 
     private static final int[] BASE_DURABILITY = new int[] {13, 15, 16, 11};
     //private static final int[] PROTECTION_VALUES = new int[] {3, 6, 8, 3};

@@ -1,4 +1,4 @@
-// 1.20.1	2024-06-13T22:23:16.8652453	More things/Tags for minecraft:block
+// 1.20.1	2024-06-13T23:17:10.8802615	More things/Tags for minecraft:block
 8ed765ad71706a264c8fa29441eacd806bb00b2b data\minecraft\tags\blocks\mineable\pickaxe.json
 10c1a4842ec12bb2cacac587cde2bae8152993f6 data\minecraft\tags\blocks\needs_diamond_tool.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json

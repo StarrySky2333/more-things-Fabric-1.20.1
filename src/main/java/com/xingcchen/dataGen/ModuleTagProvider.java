@@ -9,6 +9,7 @@ import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 
 
+
 public class ModuleTagProvider extends FabricModelProvider {
     public ModuleTagProvider(FabricDataOutput output) {
         super(output);
@@ -34,11 +35,13 @@ public class ModuleTagProvider extends FabricModelProvider {
         itemModelGenerator.register(NewItem.CORN_SWORD, Models.HANDHELD);
         itemModelGenerator.register(NewItem.CORN_HOE, Models.HANDHELD);
 
-        itemModelGenerator.register(NewItem.CORN_HELMET, Models.HANDHELD);
-        itemModelGenerator.register(NewItem.CORN_CHESTPLATE, Models.HANDHELD);
-        itemModelGenerator.register(NewItem.CORN_LEGGINGS, Models.HANDHELD);
-        itemModelGenerator.register(NewItem.CORN_BOOTS, Models.HANDHELD);
+        itemModelGenerator.registerArmor(NewItem.CORN_HELMET);
+        itemModelGenerator.registerArmor(NewItem.CORN_CHESTPLATE);
+        itemModelGenerator.registerArmor(NewItem.CORN_LEGGINGS);
+        itemModelGenerator.registerArmor(NewItem.CORN_BOOTS);
 
-        itemModelGenerator.register(NewItem.ORE_FINDER, Models.HANDHELD);
+        itemModelGenerator.register(NewItem.ORE_FINDER, Models.GENERATED);
+
+
     }
 }
