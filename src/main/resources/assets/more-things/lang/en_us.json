@@ -1,6 +1,6 @@
 {
   "itemGroup.more-things.allthingsgroup": "More Things",
-  "item.tutorial.custom_item.tooltip": "A Custom Item",
+  "item.tutorial.ore_finder.tooltip": "A tool to find special ore",
 
   "block.more-things.corn_ore": "Corn Ore",
   "block.more-things.corn_block": "Corn Block",

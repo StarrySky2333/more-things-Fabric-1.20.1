@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "more-things:corn_ingot"
+    },
+    "*": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "## ",
+    "#* ",
+    " * "
+  ],
+  "result": {
+    "item": "more-things:corn_axe"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_block"
+    },
+    "&": {
+      "item": "minecraft:stick"
+    },
+    "*": {
+      "item": "more-things:corn_block"
+    }
+  },
+  "pattern": [
+    "#*#",
+    "###",
+    " & "
+  ],
+  "result": {
+    "item": "more-things:ore_finder"
+  },
+  "show_notification": true
+}

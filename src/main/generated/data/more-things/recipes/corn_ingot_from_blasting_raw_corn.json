@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 2.5,
+  "group": "corn",
+  "ingredient": {
+    "item": "more-things:raw_corn"
+  },
+  "result": "more-things:corn_ingot"
+}

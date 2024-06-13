@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "more-things:corn_ingot"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "more-things:corn_chestplate"
+  },
+  "show_notification": true
+}

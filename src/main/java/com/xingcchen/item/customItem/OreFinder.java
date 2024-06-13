@@ -3,17 +3,30 @@ package com.xingcchen.item.customItem;
 import com.xingcchen.block.NewBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
+
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class OreFinder extends Item {
     public OreFinder(Settings settings) {
         super(settings);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("item.tutorial.ore_finder.tooltip").formatted(Formatting.AQUA));
+        super.appendTooltip(stack, world, tooltip, context);
     }
 
     @Override
@@ -23,7 +36,6 @@ public class OreFinder extends Item {
             BlockPos bp = context.getBlockPos();
             PlayerEntity pe = context.getPlayer();
             boolean isFound = false;
-            int n;
 
 
             for (int i = bp.getY(); i >= -64; i--) {
@@ -54,6 +66,6 @@ public class OreFinder extends Item {
 
 
     private boolean isRightBlock(BlockState bs) {
-        return bs.isOf(NewBlock.CORN_ORE)||bs.isOf(Blocks.DIAMOND_ORE);
+        return bs.isOf(NewBlock.CORN_ORE);
     }
 }
