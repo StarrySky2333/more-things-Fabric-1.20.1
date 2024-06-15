@@ -33,6 +33,9 @@ public class MyRegister {
         Registry.register(Registries.ITEM,new Identifier(MoreThings.MOD_ID,"corn_boots"),NewItem.CORN_BOOTS);
 
         Registry.register(Registries.ITEM,new Identifier(MoreThings.MOD_ID,"ore_finder"),NewItem.ORE_FINDER);
+
+
+
     }
 
     public static void registerblock(){
