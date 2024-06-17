@@ -1,6 +1,7 @@
 package com.xingcchen;
 
 import com.xingcchen.item.MyRegister;
+import com.xingcchen.world.gen.MyWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -17,7 +18,7 @@ public class MoreThings implements ModInitializer {
 		MyRegister.registeritem();
 		MyRegister.registerblock();
 		MyRegister.registeritemgroup();
-
+		MyWorldGeneration.generateModWorldGen();
 
 	}
 }
