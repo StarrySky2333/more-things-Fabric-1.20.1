@@ -10,5 +10,8 @@ public class MyOreGeneration {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
                 GenerationStep.Feature.UNDERGROUND_ORES, MyPlacedFeatures.CORN_ORE_PLACED_KEY);
 
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_ORES, MyPlacedFeatures.DEEPSLATE_CORN_ORE_PLACED_KEY);
+
     }
 }

@@ -2,7 +2,6 @@ package com.xingcchen.world;
 
 import com.xingcchen.MoreThings;
 import com.xingcchen.block.NewBlock;
-import com.xingcchen.item.NewItem;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -19,18 +18,23 @@ import java.util.List;
 
 public class MyConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?,?>> CORN_ORE_KEY = registerKey("corn_ore");
+    public static final RegistryKey<ConfiguredFeature<?,?>> DEEPSLATE_CORN_ORE_KEY = registerKey("deepslate_corn_ore");
 
     public static void boostrap(Registerable<ConfiguredFeature<?,?>> context){
         RuleTest stonePlace = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslatePlace = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
 
-        List<OreFeatureConfig.Target> overWorld = List.of(
-                OreFeatureConfig.createTarget(stonePlace, NewBlock.CORN_ORE.getDefaultState()),
-                OreFeatureConfig.createTarget(deepslatePlace, NewBlock.CORN_ORE.getDefaultState()));
+        List<OreFeatureConfig.Target> overWorldUpper = List.of(
+                OreFeatureConfig.createTarget(stonePlace, NewBlock.CORN_ORE.getDefaultState()));
+
+        List<OreFeatureConfig.Target> overWorldLower = List.of(
+                OreFeatureConfig.createTarget(deepslatePlace, NewBlock.DEEPSLATE_CORN_ORE.getDefaultState()));
 
 
-        register(context,CORN_ORE_KEY,Feature.ORE,new OreFeatureConfig(overWorld,5));
+
+        register(context,CORN_ORE_KEY,Feature.ORE,new OreFeatureConfig(overWorldUpper,5));
+        register(context,DEEPSLATE_CORN_ORE_KEY,Feature.ORE,new OreFeatureConfig(overWorldLower,5));
     }
 
 

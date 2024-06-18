@@ -20,11 +20,13 @@ public class BlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(NewBlock.CORN_BLOCK)
-                .add(NewBlock.CORN_ORE);
+                .add(NewBlock.CORN_ORE)
+                .add(NewBlock.DEEPSLATE_CORN_ORE);
 
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(NewBlock.CORN_ORE);
+                .add(NewBlock.CORN_ORE)
+                .add(NewBlock.DEEPSLATE_CORN_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(NewBlock.CORN_BLOCK);

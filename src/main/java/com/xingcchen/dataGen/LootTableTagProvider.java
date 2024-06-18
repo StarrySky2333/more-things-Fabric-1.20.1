@@ -28,11 +28,12 @@ public class LootTableTagProvider extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(NewBlock.CORN_BLOCK);
 
-        addDrop(NewBlock.CORN_ORE,cornOreDrops(NewBlock.CORN_ORE, NewItem.RAW_CORN));
+        addDrop(NewBlock.CORN_ORE, oreDrops(NewBlock.CORN_ORE, NewItem.RAW_CORN));
+        addDrop(NewBlock.DEEPSLATE_CORN_ORE, oreDrops(NewBlock.DEEPSLATE_CORN_ORE,NewItem.RAW_CORN));
     }
 
 
-    public LootTable.Builder cornOreDrops(Block drop,Item item) {
+    public LootTable.Builder likeCopperOreDrops(Block drop, Item item) {
         return BlockLootTableGenerator.dropsWithSilkTouch(drop,
                 (LootPoolEntry.Builder)this.applyExplosionDecay(drop,
                         ((LeafEntry.Builder) ItemEntry.builder(item)

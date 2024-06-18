@@ -20,6 +20,7 @@ public class ModuleTagProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(NewBlock.CORN_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(NewBlock.CORN_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(NewBlock.DEEPSLATE_CORN_ORE);
 
     }
 

@@ -18,6 +18,7 @@ public class MyRegister {
     public static void registeritem(){
         Registry.register(Registries.ITEM,new Identifier(MoreThings.MOD_ID,"corn_ingot"),NewItem.CORN_INGOT);
         Registry.register(Registries.ITEM,new Identifier(MoreThings.MOD_ID,"corn_ore"),NewItem.CORN_ORE);
+        Registry.register(Registries.ITEM,new Identifier(MoreThings.MOD_ID,"deepslate_corn_ore"),NewItem.DEEPSLATE_CORN_ORE);
         Registry.register(Registries.ITEM,new Identifier(MoreThings.MOD_ID,"raw_corn"),NewItem.RAW_CORN);
         Registry.register(Registries.ITEM,new Identifier(MoreThings.MOD_ID,"corn_block"),NewItem.CORN_BLOCK);
 
@@ -40,6 +41,7 @@ public class MyRegister {
 
     public static void registerblock(){
         Registry.register(Registries.BLOCK,new Identifier(MoreThings.MOD_ID,"corn_ore"), NewBlock.CORN_ORE);
+        Registry.register(Registries.BLOCK,new Identifier(MoreThings.MOD_ID,"deepslate_corn_ore"), NewBlock.DEEPSLATE_CORN_ORE);
         Registry.register(Registries.BLOCK,new Identifier(MoreThings.MOD_ID,"corn_block"), NewBlock.CORN_BLOCK);
     }
 

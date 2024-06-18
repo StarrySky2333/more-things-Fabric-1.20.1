@@ -18,6 +18,7 @@ public class NewItem {
     public static final Item CORN_INGOT = new Item(new Item.Settings());
     //创建方块物品<-NewBlock
     public static final Item CORN_ORE = new BlockItem(NewBlock.CORN_ORE, new Item.Settings());
+    public static final Item DEEPSLATE_CORN_ORE = new BlockItem(NewBlock.DEEPSLATE_CORN_ORE, new Item.Settings());
     public static final Item CORN_BLOCK = new BlockItem(NewBlock.CORN_BLOCK,new Item.Settings());
 
     //创建一些工具->corn类

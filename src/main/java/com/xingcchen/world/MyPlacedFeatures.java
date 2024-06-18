@@ -18,12 +18,19 @@ import java.util.List;
 public class MyPlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> CORN_ORE_PLACED_KEY = registerKey("corn_ore_placed_key");
+    public static final RegistryKey<PlacedFeature> DEEPSLATE_CORN_ORE_PLACED_KEY = registerKey("deepslate_corn_ore_placed_key");
 
     public static void boostrap(Registerable<PlacedFeature> context){
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
+
         register(context,CORN_ORE_PLACED_KEY,configuredFeatureRegistryEntryLookup.getOrThrow(MyConfiguredFeatures.CORN_ORE_KEY),
                 MyOrePlacement.modifiersWithCount(3,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(-50),YOffset.fixed(70))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(0),YOffset.fixed(64))));
+
+        register(context,DEEPSLATE_CORN_ORE_PLACED_KEY,configuredFeatureRegistryEntryLookup.getOrThrow(MyConfiguredFeatures.DEEPSLATE_CORN_ORE_KEY),
+                MyOrePlacement.modifiersWithCount(3,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-64),YOffset.fixed(0))));
+
     }
 
 
