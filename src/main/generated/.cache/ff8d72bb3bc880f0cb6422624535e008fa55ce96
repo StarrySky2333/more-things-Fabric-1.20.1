@@ -1,9 +1,9 @@
-// 1.20.1	2024-06-18T23:22:39.9677834	More things/Model Definitions
+// 1.20.1	2024-06-19T22:31:59.0220903	More things/Model Definitions
 49d383daabae6e6e9613745a92d46804065ebc92 assets\more-things\models\item\raw_corn.json
 1836e7fb3c5424c51af8ad6194a1cc7c908088be assets\more-things\models\item\corn_helmet.json
 c2fee9dee54ac2c790fdcf1bac87eaacf8afe782 assets\more-things\models\item\corn_chestplate_copper_trim.json
-1541916b3b8c65be908dd2833ad2cdfb7d2dca46 assets\more-things\models\item\corn_helmet_emerald_trim.json
 0b2171ef425e03ca85260c3510ab34c7e38826ce assets\more-things\models\item\corn_hoe.json
+1541916b3b8c65be908dd2833ad2cdfb7d2dca46 assets\more-things\models\item\corn_helmet_emerald_trim.json
 40d7508674d5659aaae13648a359953ed0952ad3 assets\more-things\models\block\corn_ore.json
 6a047b2787fe90c910ae612b2a684beda1f8a128 assets\more-things\models\item\corn_helmet_netherite_trim.json
 079aec16a444d60584bf268a462f63a19320f4da assets\more-things\models\item\corn_chestplate_gold_trim.json
@@ -25,8 +25,8 @@ d8ea703ebc410fab6e325f67235da72ae74a94ba assets\more-things\models\item\corn_leg
 0899750f7baecef529635cd850297e77204ec673 assets\more-things\models\item\corn_boots_redstone_trim.json
 ee3c0a1f509234185694da839ca166b5cc3295c1 assets\more-things\models\item\corn_leggings_gold_trim.json
 390358d4b5fd96cc8b11e5d9d5655cca0ff96199 assets\more-things\models\item\corn_helmet_quartz_trim.json
-467e6198b95a9c64d49087d6abbf062a55d61d21 assets\more-things\models\block\deepslate_corn_ore.json
 7b67dd352a38fbbe3e6a40c601cd1b0c4da9790c assets\more-things\models\item\corn_boots_emerald_trim.json
+467e6198b95a9c64d49087d6abbf062a55d61d21 assets\more-things\models\block\deepslate_corn_ore.json
 1d86b83a0c72e98db3071abaa93f3e07d1c5b1ea assets\more-things\models\item\corn_chestplate_lapis_trim.json
 083341e01ef9a153b3b7e57aee040e714345c4db assets\more-things\models\item\corn_leggings_netherite_trim.json
 c248ac4c8ecbfd91193944f78405e458b44a90ab assets\more-things\models\item\corn_boots_copper_trim.json

@@ -22,11 +22,11 @@ public class NewItem {
     public static final Item CORN_BLOCK = new BlockItem(NewBlock.CORN_BLOCK,new Item.Settings());
 
     //创建一些工具->corn类
-    public static final ToolItem CORN_SWORD = new SwordItem(MyToolMaterial.CORN, 5, 1, new Item.Settings().fireproof());
-    public static final ToolItem CORN_SHOVEL = new ShovelItem(MyToolMaterial.CORN, 2, 2, new Item.Settings().fireproof());
-    public static final ToolItem CORN_PICKAXE = new PickaxeItem(MyToolMaterial.CORN, 3, -0.1F, new Item.Settings().fireproof());
-    public static final ToolItem CORN_AXE = new AxeItem(MyToolMaterial.CORN, 8, -0.9F, new Item.Settings().fireproof());
-    public static final ToolItem CORN_HOE = new HoeItem(MyToolMaterial.CORN, 1, 0, new Item.Settings().fireproof());
+    public static final ToolItem CORN_SWORD = new SwordItem(MyToolMaterial.CORN, 4, -1.2f, new Item.Settings().fireproof());
+    public static final ToolItem CORN_SHOVEL = new ShovelItem(MyToolMaterial.CORN, 2.5f, -1.5f, new Item.Settings().fireproof());
+    public static final ToolItem CORN_PICKAXE = new PickaxeItem(MyToolMaterial.CORN, 2, -1.4f, new Item.Settings().fireproof());
+    public static final ToolItem CORN_AXE = new AxeItem(MyToolMaterial.CORN, 6, -1.5F, new Item.Settings().fireproof());
+    public static final ToolItem CORN_HOE = new HoeItem(MyToolMaterial.CORN, -2, 0, new Item.Settings().fireproof());
     //创建一些盔甲->corn类
     public static final ArmorItem CORN_HELMET =new CustomArmor(MyArmorMaterial.CORN_INGOT, ArmorItem.Type.HELMET,new Item.Settings().fireproof());
     public static final ArmorItem CORN_CHESTPLATE =new ArmorItem(MyArmorMaterial.CORN_INGOT, ArmorItem.Type.CHESTPLATE,new Item.Settings().fireproof());

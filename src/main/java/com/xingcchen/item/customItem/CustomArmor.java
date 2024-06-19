@@ -1,6 +1,6 @@
 package com.xingcchen.item.customItem;
 
-import com.xingcchen.item.MyArmorMaterial;
+
 import com.xingcchen.item.NewItem;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -10,9 +10,6 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
-import org.spongepowered.include.com.google.common.collect.ImmutableMap;
-
-import java.util.Map;
 
 public class CustomArmor extends ArmorItem {
     public CustomArmor(ArmorMaterial material, Type type, Settings settings) {
@@ -30,9 +27,7 @@ public class CustomArmor extends ArmorItem {
                     player.addStatusEffect(new StatusEffectInstance(StatusEffects.GLOWING,300,1,false,false,true));
 
                 }
-                if(!player.hasStatusEffect(StatusEffects.NIGHT_VISION)){
-                    player.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION,300,1,false,false,true));
-                }
+                player.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION,300,1,false,false,true));
             }
         }
 

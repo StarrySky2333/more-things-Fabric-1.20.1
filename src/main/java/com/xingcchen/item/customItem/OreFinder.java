@@ -61,11 +61,11 @@ public class OreFinder extends Item {
     }
 
     private void outputMessage(BlockPos bp, PlayerEntity pe, Block block) {
-        pe.sendMessage(Text.literal("找到一个"+block.asItem().getName().getString()+"在"+bp.getX()+","+bp.getY()+","+bp.getZ()),false);
+        pe.sendMessage(Text.literal("最近一个"+block.asItem().getName().getString()+"在"+bp.getX()+","+bp.getY()+","+bp.getZ()),false);
     }
 
 
     private boolean isRightBlock(BlockState bs) {
-        return bs.isOf(NewBlock.CORN_ORE);
+        return bs.isOf(NewBlock.CORN_ORE)||bs.isOf(NewBlock.DEEPSLATE_CORN_ORE);
     }
 }

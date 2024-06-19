@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 public enum MyToolMaterial implements ToolMaterial {
 
     //模仿原版创建工具材料
-    CORN(MiningLevels.NETHERITE,5000,15.0F,10.0F,50,()->Ingredient.ofItems(NewItem.CORN_INGOT));
+    CORN(MiningLevels.NETHERITE,3100,13.0F,6.0F,30,()->Ingredient.ofItems(NewItem.CORN_INGOT));
 
 
 
