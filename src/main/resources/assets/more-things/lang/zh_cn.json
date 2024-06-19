@@ -1,0 +1,26 @@
+{
+  "itemGroup.more-things.allthingsgroup": "更多内容",
+  "item.tutorial.ore_finder.tooltip": "寻找特殊矿石的工具",
+
+  "block.more-things.corn_ore": "Corn 矿石",
+  "block.more-things.deepslate_corn_ore": "深层 Corn 矿石",
+  "block.more-things.corn_block": "Corn 块",
+
+  "item.more-things.corn_ingot": "Corn 锭",
+  "item.more-things.raw_corn": "Corn 生矿",
+
+  "item.more-things.corn_sword": "Corn 剑",
+  "item.more-things.corn_shovel": "Corn 铲",
+  "item.more-things.corn_pickaxe": "Corn 镐",
+  "item.more-things.corn_axe": "Corn 斧",
+  "item.more-things.corn_hoe": "Corn 锄",
+  "item.more-things.corn_helmet": "Corn 头盔",
+  "item.more-things.corn_chestplate": "Corn 胸甲",
+  "item.more-things.corn_leggings": "Corn 护腿",
+  "item.more-things.corn_boots": "Corn 靴子",
+
+  "item.more-things.ore_finder": "探矿者"
+
+
+
+}

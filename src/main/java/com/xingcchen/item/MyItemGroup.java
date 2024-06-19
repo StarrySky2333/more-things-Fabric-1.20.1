@@ -40,6 +40,7 @@ public class MyItemGroup {
                 entries.add(NewItem.CORN_INGOT);
                 entries.add(NewItem.RAW_CORN);
                 entries.add(NewItem.CORN_ORE);
+                entries.add(NewItem.DEEPSLATE_CORN_ORE);
                 entries.add(NewItem.CORN_BLOCK);
                 entries.add(NewItem.CORN_SWORD);
                 entries.add(NewItem.CORN_SHOVEL);
@@ -50,6 +51,7 @@ public class MyItemGroup {
                 entries.add(NewItem.CORN_CHESTPLATE);
                 entries.add(NewItem.CORN_LEGGINGS);
                 entries.add(NewItem.CORN_BOOTS);
+                entries.add(NewItem.ORE_FINDER);
             })
             .build();
 

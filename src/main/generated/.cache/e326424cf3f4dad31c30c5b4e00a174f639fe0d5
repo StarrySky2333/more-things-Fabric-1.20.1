@@ -1,0 +1,5 @@
+// 1.20.1	2024-06-19T22:31:59.0210917	More things/Tags for minecraft:block
+24a393b1b37ed90d2896a31b7ee16bf01cdb2ada data\minecraft\tags\blocks\mineable\pickaxe.json
+323d7050b48793aa38a2b7a3d24a0ce168f48ea4 data\minecraft\tags\blocks\needs_diamond_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
+45ee08840c986680d0452107c7def98e0a15d144 data\minecraft\tags\blocks\needs_iron_tool.json

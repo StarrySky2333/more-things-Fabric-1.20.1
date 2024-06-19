@@ -1,8 +1,9 @@
 {
   "itemGroup.more-things.allthingsgroup": "More Things",
-  "item.tutorial.custom_item.tooltip": "A Custom Item",
+  "item.tutorial.ore_finder.tooltip": "A tool to find special ore",
 
   "block.more-things.corn_ore": "Corn Ore",
+  "block.more-things.deepslate_corn_ore": "Deepslate Corn Ore",
   "block.more-things.corn_block": "Corn Block",
 
   "item.more-things.corn_ingot": "Corn Ingot",
@@ -16,5 +17,10 @@
   "item.more-things.corn_helmet": "Corn Helemt",
   "item.more-things.corn_chestplate": "Corn Chestplate",
   "item.more-things.corn_leggings": "Corn Leggings",
-  "item.more-things.corn_boots": "Corn Boots"
+  "item.more-things.corn_boots": "Corn Boots",
+
+  "item.more-things.ore_finder": "Ore Finder"
+
+
+
 }
